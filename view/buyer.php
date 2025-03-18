@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
 </head>
 <body>
+    <h1>ProperyjhvghcExpert.com</h1>
     <h2>Customer Information</h2>
     <form>
         <label for="fname">First Name</label><br>
@@ -34,17 +36,17 @@
             <option value="Narshingdi">Narshingdi</option>
           </select>
           <p>Gender:</p>
-          <input type="radio" id="html" name="fav_language" value="HTML">
+          <input type="radio" id="html12" name="male" value="male">
           <label for="html">Male</label><br>
-          <input type="radio" id="html" name="fav_language" value="HTML">
+          <input type="radio" id="html34" name="female" value="female">
           <label for="html">Female</label><br>
 
           <h2>Account Information</h2>
-          <label for="fname">Username</label><br>
-          <input type="text" id="fname1" name="fname" value=""><br>
-          <label for="fname">Password</label><br>
+          <label for="fname2">Username</label><br>
+          <input type="text" id="fname2" name="fname" value=""><br>
+          <label for="pass">Password</label><br>
           <input type="password" id="pass1" name="pass" value=""><br>
-          <label for="fname">Confirm Password</label><br>
+          <label for="pass">Confirm Password</label><br>
           <input type="password" id="confirm1" name="confirm" value=""><br>
 
           <h2>Property Preferences</h2>
