@@ -1,0 +1,70 @@
+#logo{
+    position: fixed;
+    color: rgb(212, 231, 141);
+    background-color: rgb(159, 198, 243);
+    border-style: solid;
+    border-width: 2px;
+    width: 30%;
+    margin-left: 35%;
+    
+}
+#submit{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 89, 158);
+    font-size: larger;
+}
+#thnx{
+    
+    color: rgb(185, 57, 57);
+    background-color: rgb(0, 214, 29);
+    position: relative;
+    left: 35px;
+    top:100px;
+    border-style: solid;
+    border-width: 2px;
+    width: 30%;
+    margin-left: 35%;}
+
+    #thnx1{
+    
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 214, 29);
+        position: relative;
+        left: 35px;
+        top:100px;
+        border-style: solid;
+        border-width: 2px;
+        width: 20%;
+        margin-left: 35%;
+    
+    
+}
+.ss1 {
+    color: rgb(238, 232, 243);
+    background-color: rgb(14, 44, 78);
+    border-style: solid;
+    border-width: 2px;
+    width: 30%;
+    margin-left: 35%;
+
+}
+*
+{
+    text-align: center;
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-image: url(pexels-binyaminmellish-186077.jpg);
+}
+#lname{
+    text-align: right;
+}
+
+div.aboutus {
+    position: fixed;
+    bottom: 70;
+    right: 30;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }

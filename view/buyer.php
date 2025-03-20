@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/hh.css">
 </head>
 <body>
-    <h1>ProperyjhvghcExpert.com</h1>
-    <h2>Customer Information</h2>
-    <form>
-        <label for="fname">First Name</label><br>
-        <input type="text" id="fname1" name="fname" value=""><br>
-        <label for="lname">Last Name</label><br>
-        <input type="text" id="lname1" name="lname" value=""><br>
-        <label for="email">E-mail address</label><br>
-        <input type="text" id="email1" name="email" value=""><br>
-        <label for="phone">Phone number</label><br>
-        <input type="text" id="phone1" name="phone" value=""><br>
+    <h1 id="logo">PropertyExpert.com</h1>
+    <h2 class="ss1">Customer Information</h2>
+    <form action="submit.php" method="get">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname1" name="fname" value="">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="email">E-mail address</label>
+        <input type="text" id="email1" name="email" value="">
+        <label for="phone">Phone number</label>
+        <input type="text" id="phone1" name="phone" value=""><br><br>
         <label for="adress">Adress</label><br>
         <input type="text" id="add1" name="address" value=""><br>
         <label for="city">Select City</label><br>
@@ -41,7 +41,7 @@
           <input type="radio" id="html34" name="female" value="female">
           <label for="html">Female</label><br>
 
-          <h2>Account Information</h2>
+          <h2 class="ss1">Account Information</h2>
           <label for="fname2">Username</label><br>
           <input type="text" id="fname2" name="fname" value=""><br>
           <label for="pass">Password</label><br>
@@ -49,7 +49,7 @@
           <label for="pass">Confirm Password</label><br>
           <input type="password" id="confirm1" name="confirm" value=""><br>
 
-          <h2>Property Preferences</h2>
+          <h2 class="ss1">Property Preferences</h2>
           <label for="house"> Prefered Property Type:</label><br><br>
           <input type="checkbox" id="house1" name="house" value="House">
           <label for="house"> House</label><br>
@@ -76,15 +76,18 @@
             <option value="Narshingdi">Narshingdi</option>
           </select><br><br>
           <label for="points">Prefered Budget Range (Between 10,000tk and 100,00,00,000tk):</label><br>
-          <input type="range" id="points" name="points" min="10000" max="100000000">
-          <p>Interested In:</p>
-          <input type="radio" id="html" name="fav_language" value="HTML">
-          <label for="html">Buying</label><br>
-          <input type="radio" id="html" name="fav_language" value="HTML">
-          <label for="html">Renting</label><br><br>
+          <input type="range" id="points" name="points" min="10000" max="100000000"><br><br>
+          
           <input type="checkbox" id="house1" name="house" value="House">
           <label for="house">I agree to the terms and conditions of the propertyexpert.com</label><br><br>
-          <input type="submit" value="Register as Customer">
+          <input id="submit" type="submit" value="Register as Customer">
+          
+          
+    </form>
+    <form action="aboutus.php">
+    <div class= "aboutus">
+          <input id="aboutus" type="submit" value="About us">
+          </div>
     </form>
 </body>
 </html>
