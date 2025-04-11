@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Casio Style Calculator</title>
+  <link rel="stylesheet" type="text/css" href="../css/calc-style.css">
+</head>
+  
+
+<body>
+
+<div class="calculator">
+  <div class="display" id="display">0</div>
+  <div class="buttons">
+    <button class="btn-mem" onclick="memoryClear()">MC</button>
+    <button class="btn-mem" onclick="memoryRecall()">MR</button>
+    <button class="btn-mem" onclick="memoryMinus()">M−</button>
+    <button class="btn-mem" onclick="memoryPlus()">M+</button>
+
+    <button onclick="append('%')">%</button>
+    <button onclick="append('')">税抜</button>
+    <button onclick="append('')">税込</button>
+    <button onclick="append('GT')">GT</button>
+
+    <button class="btn-ac" onclick="clearAll()">AC</button>
+    <button onclick="append('00')">00</button>
+    <button onclick="append('.')">.</button>
+    <button class="btn-op" onclick="append('/')">÷</button>
+
+    <button onclick="append('7')">7</button>
+    <button onclick="append('8')">8</button>
+    <button onclick="append('9')">9</button>
+    <button class="btn-op" onclick="append('*')">×</button>
+
+    <button onclick="append('4')">4</button>
+    <button onclick="append('5')">5</button>
+    <button onclick="append('6')">6</button>
+    <button class="btn-op" onclick="append('-')">−</button>
+
+    <button onclick="append('1')">1</button>
+    <button onclick="append('2')">2</button>
+    <button onclick="append('3')">3</button>
+    <button class="btn-op" onclick="append('+')">+</button>
+
+    <button class="btn-wide" onclick="append('0')">0</button>
+    <button class="btn-eq btn-wide" onclick="calculate()">=</button>
+  </div>
+</div>
+
+<script>
+  let display = document.getElementById('display');
+  let memory = 0
