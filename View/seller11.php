@@ -9,7 +9,7 @@
 <body>
   <h1>Property Expert.Com</h1>
     <h2 class="sinformation">Seller Information</h2>
-    <form action="submit.php" method="get">
+    <form action="submit1.php" method="POST">
     <div id="errorMsg" style="color: red; margin-bottom: 10px;"></div>
 
         <label for="fname">First Name</label><br>
@@ -40,9 +40,9 @@
             <option value="Narshingdi">Narshingdi</option>
           </select>
           <p id="gender">Gender:</p>
-          <input type="radio" id="html" name="fav_language" value="HTML">
+          <input type="radio" id="html" name="gender" value="Male">
           <label for="html">Male</label><br>
-          <input type="radio" id="html" name="fav_language" value="HTML">
+          <input type="radio" id="html" name="gender" value="Female">
           <label for="html">Female</label><br>
 
           <h2 class="sinformation">Account Information</h2>
@@ -83,22 +83,21 @@
             <option value="Gazipur">Gazipur</option>
             <option value="Narshingdi">Narshingdi</option>
           </select><br><br>
-    
+          <input type="hidden" name="user_type" value="seller">
           <h4 class="p">Description of property being displayed</h4>
-          <input type="text" id="fname1" name="fname" value=""><br>
+          <input type="text" id="fname1" name="fname1" value=""><br>
           <h4 class="p">Interested In:</h4>
-          <input type="radio" id="html" name="fav_language" value="HTML">
+          <input type="radio" id="html" name="interest" value="Buying">
           <label for="html">Buying</label><br>
-          <input type="radio" id="html" name="fav_language" value="HTML">
+          <input type="radio" id="html" name="interest" value="Renting">
           <label for="html">Renting</label><br><br>
           <input type="checkbox" id="house1" name="house" value="House">
           <label for="house">I agree to the terms and conditions of the propertyexpert.com</label><br><br>
           <input type="submit" value="Register as Seller">
     </form>
     <form action="customerreview.php"> <input type="submit" value="customer review"></form>
-    <script src="../js/seller11.js">
+   
     
-    </script>
 </body>
 </html>
 </body>
