@@ -9,6 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $fname =$_POST['fname'];
         $lname=$_POST['lname'];
         $passw=$_POST['pass'];
+        $password = password_hash($_POST['pass'], PASSWORD_DEFAULT);
         $phone=$_POST['phone'];
         $id = $conn->real_escape_string($id);
         $fname = $conn->real_escape_string($fname);
@@ -18,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $passw = $conn->real_escape_string($passw);
         $phone = $conn->real_escape_string($phone);
 
-        $sql = "UPDATE users SET First_Name = '$fname', Phone='$phone', Last_Name = '$lname', Username = '$name', Email = '$email', Pass ='$passw' WHERE ID = $id";
+        $sql = "UPDATE users SET First_Name = '$fname', Password ='$password', Phone='$phone', Last_Name = '$lname', Username = '$name', Email = '$email', Pass ='$passw' WHERE ID = $id";
         $result = $conn->query($sql);
 
         if ($result) {
