@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    height: 100vh;             /* full viewport height */
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+    color: #333;
+    flex-direction: column;    /* stack items vertically */
+    text-align: center;        /* center text */
+}

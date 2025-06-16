@@ -1,0 +1,61 @@
+h1{
+    color: rgb(36, 37, 32);
+    border-style: outset;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+    background-color: azure;
+    position:static;
+}
+
+*{
+    text-align:center;
+    font-family: Verdana;
+}
+body{
+    background-color: rgb(171, 163, 117);
+}
+#creview{
+    background-color: aqua;
+    font-family: verdana;
+    color: blue;
+}
+#description{
+    color:white;
+    background-color:blue;
+    width: 50%;
+    position:relative;
+    left: 20%;
+    top: 50px;
+    padding: 5%;
+    display:block;
+    overflow: scroll;
+
+  }
+ 
+.sinformation{
+    background-color: bisque;
+    width:20% ;
+    text-align: center;
+    margin-left: 40%;
+    border-style: solid;
+}
+#gender{
+    color: black;
+    border-style: outset;
+    width: 10%;
+    text-align: center;
+    margin-left: 45%;
+    background-color: azure;
+    position: static;
+}
+.p{
+    color: black;
+    border-style: outset;
+    width: 10%;
+    text-align: center;
+    margin-left: 45%;
+    background-color: azure;
+    position: static;  
+} 
+
